@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-======
 
 I'm a researcher focusing on **robotics & physical human–robot interaction (pHRI)**.  
 My interests include **soft-belt human–robot interaction**, **MuJoCo** human-in-the-loop simulation, **soft-body modeling**, **ergonomics**, and the **DRBA** system.  
