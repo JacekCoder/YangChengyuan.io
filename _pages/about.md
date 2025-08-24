@@ -1,12 +1,11 @@
 ---
 permalink: /
-title: "CY's Homepage"
+title: "About_me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Self Introduction
 ======
 
 I'm a researcher focusing on **robotics & physical human–robot interaction (pHRI)**.  
