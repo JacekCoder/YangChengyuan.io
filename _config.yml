@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Cheng Yuan's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -23,7 +23,7 @@ repository               : "JacekCoder/YangChengyuan.io"
 author:
   # Biographic information
   avatar           : "pic.png"
-  name             : "Yang Chengyuan(杨程远)"
+  name             : "Yang Chengyuan (杨程远)"
   pronouns         : # example: "she/her"  
   bio              : "NANYANG TECHNOLOGICAL UNIVERSITY"
   location         : "Singapore"
