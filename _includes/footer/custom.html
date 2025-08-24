@@ -16,8 +16,8 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
-<!-- MapMyVisitors：屏幕右下角悬浮 -->
-<div id="mmv-float-bottom-right">
+<!-- MapMyVisitors：页脚里靠右顶部（非悬浮） -->
+<div class="mmv-in-footer-right">
   <script id="mapmyvisitors" defer
           src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=150"></script>
   <noscript>
@@ -28,20 +28,40 @@
 </div>
 
 <style>
-  /* 固定在右下角，不占页面布局空间 */
-  #mmv-float-bottom-right{
-    position: fixed;
-    right: 16px;
-    bottom: 16px;
-    width: 150px;            /* ↔ 与上面 w=150 一致；改大小就两处一起改 */
-    z-index: 9999;
+  /* 收紧页脚上下留白 */
+  .page__footer{
+    padding-top: .35rem !important;
+    padding-bottom: .5rem !important;
   }
-  /* 清掉部件内部可能的居中 margin */
-  #mmv-float-bottom-right *{ margin: 0 !important; }
 
-  /* 移动端缩小并贴边 */
+  /* 右上角贴边：非悬浮，用 float 布局 */
+  .page__footer .mmv-in-footer-right{
+    float: right;
+    width: 150px;              /* ↔ 与 w=150 保持一致 */
+    margin: .2rem 1rem .2rem 1rem;  /* 上右下左：可按需微调 */
+  }
+  /* 防止小部件内部自带的居中样式 */
+  .page__footer .mmv-in-footer-right *{
+    margin: 0 !important;
+  }
+
+  /* 让页脚文字别被地图“压住”：右侧留一点空间 */
+  .page__footer .page__footer-follow,
+  .page__footer .page__footer-copyright{
+    margin-right: 170px;       /* ≈ width + 余量 */
+  }
+
+  /* 移动端恢复为正常流式，避免拥挤 */
   @media (max-width: 768px){
-    #mmv-float-bottom-right{ right: 8px; bottom: 8px; width: 120px; }
+    .page__footer .mmv-in-footer-right{
+      float: none;
+      width: 140px;            /* 小屏可适当缩小 */
+      margin: .25rem 0 0 0;
+    }
+    .page__footer .page__footer-follow,
+    .page__footer .page__footer-copyright{
+      margin-right: 0;
+    }
   }
 </style>
 
