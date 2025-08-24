@@ -16,27 +16,56 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
-<!-- MapMyVisitors -->
+<!-- MapMyVisitors：页脚右上角 + 压缩页脚留白 -->
 <div id="mmv-footer-right">
   <script id="mapmyvisitors" defer
-          src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=160"></script>
+          src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=150"></script>
   <noscript>
     <a href="https://mapmyvisitors.com/web/1byxf" title="Visit tracker">
-      <img src="https://mapmyvisitors.com/map.png?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=160" alt="MapMyVisitors">
+      <img src="https://mapmyvisitors.com/map.png?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=150" alt="MapMyVisitors">
     </a>
   </noscript>
 </div>
 
 <style>
-  .page__footer{ position: relative !important; }
+  /* 让页脚成为定位上下文，并把上下 padding 收紧 */
+  .page__footer{
+    position: relative !important;
+    padding-top: .3rem !important;
+    padding-bottom: .4rem !important;
+  }
+  /* 页脚内部的跟随/版权行再收紧一点 */
+  .page__footer .page__footer-follow,
+  .page__footer .page__footer-copyright{
+    margin: .2rem 0 !important;
+  }
+
+  /* 把小地图绝对定位到页脚右上角；容器本身不占高度 */
   #mmv-footer-right{
     position: absolute;
     right: 1rem;
-    top: .5rem;
-    width: 160px;         /* ↔ 与 w=160 一致 */
+    top: .35rem;
+    width: 150px;     /* ↔ 与上面 w=150 保持一致 */
+    height: 0;        /* 关键：不占据垂直空间 */
+    overflow: visible;
+    z-index: 5;
   }
-  /* 防止脚本给内部加 margin:auto */
-  #mmv-footer-right *{ margin: 0 !important; }
+
+  /* 覆盖小部件可能自带的居中样式 */
+  #mmv-footer-right *{
+    margin: 0 !important;
+  }
+
+  /* 移动端：不固定，避免遮挡 */
+  @media (max-width: 768px){
+    #mmv-footer-right{
+      position: static;
+      width: 150px;
+      height: auto;
+      margin: .25rem 0 0 auto;
+    }
+  }
 </style>
+
 
 <!-- end custom footer snippets -->
