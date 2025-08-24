@@ -13,8 +13,8 @@ title                    : "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-URL                      : https://YangChengyuan.io
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : "https://jacekcoder.github.io"
+baseurl                  : "/YangChengyuan.io"
 repository               : "JacekCoder/YangChengyuan.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
