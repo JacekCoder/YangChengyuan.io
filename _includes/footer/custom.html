@@ -18,27 +18,38 @@
 </script>
 
 <!-- MapMyVisitors -->
+<!-- MapMyVisitors：页脚左侧固定宽度 -->
 <div class="mmv-footer-left">
-  <script id="mapmyvisitors" defer
-          src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=240"></script>
-  <noscript>
-    <a href="https://mapmyvisitors.com/web/1byxf" title="Visit tracker">
-      <img src="https://mapmyvisitors.com/map.png?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=240" alt="MapMyVisitors">
-    </a>
-  </noscript>
+  <div class="mmv-box">
+    <script id="mapmyvisitors" defer
+            src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=240"></script>
+    <noscript>
+      <a href="https://mapmyvisitors.com/web/1byxf" title="Visit tracker">
+        <img src="https://mapmyvisitors.com/map.png?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=240" alt="MapMyVisitors">
+      </a>
+    </noscript>
+  </div>
 </div>
 
 <style>
-  .mmv-footer-left{
-    text-align: left;              
-    padding-left: 0.75rem;        
-    margin: .5rem 0 .75rem 0;    
-  }
-  .mmv-footer-left > div{
-    display: inline-block;
-    margin: 0 !important;          /* 覆盖组件可能自带的居中 margin */
+  /* 让页脚里的自定义区域靠左；用 !important 压过主题的居中样式 */
+  .page__footer .mmv-footer-left{
+    text-align: left !important;
+    margin: .5rem 0 .75rem 0 !important;  /* 上下间距更小 */
+    padding-left: 0 !important;           /* 如需一点缩进可设为 .5rem */
   }
 
+  /* 固定一个可控的容器宽度，避免居中产生的视觉偏移 */
+  .page__footer .mmv-footer-left .mmv-box{
+    width: 240px;                         /* ↔ 与上面 w=240 保持一致 */
+  }
+
+  /* MapMyVisitors 内部会加 margin:auto；这里把它全部清零并贴左 */
+  .page__footer .mmv-footer-left .mmv-box *,
+  .page__footer .mmv-footer-left *{
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
 </style>
 
 <!-- end custom footer snippets -->
