@@ -16,8 +16,8 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
-<!-- MapMyVisitors：页脚右上角 + 压缩页脚留白 -->
-<div id="mmv-footer-right">
+<!-- MapMyVisitors：屏幕右下角悬浮 -->
+<div id="mmv-float-bottom-right">
   <script id="mapmyvisitors" defer
           src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=150"></script>
   <noscript>
@@ -28,42 +28,20 @@
 </div>
 
 <style>
-  /* 让页脚成为定位上下文，并把上下 padding 收紧 */
-  .page__footer{
-    position: relative !important;
-    padding-top: .3rem !important;
-    padding-bottom: .4rem !important;
+  /* 固定在右下角，不占页面布局空间 */
+  #mmv-float-bottom-right{
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    width: 150px;            /* ↔ 与上面 w=150 一致；改大小就两处一起改 */
+    z-index: 9999;
   }
-  /* 页脚内部的跟随/版权行再收紧一点 */
-  .page__footer .page__footer-follow,
-  .page__footer .page__footer-copyright{
-    margin: .2rem 0 !important;
-  }
+  /* 清掉部件内部可能的居中 margin */
+  #mmv-float-bottom-right *{ margin: 0 !important; }
 
-  /* 把小地图绝对定位到页脚右上角；容器本身不占高度 */
-  #mmv-footer-right{
-    position: absolute;
-    right: 1rem;
-    top: .35rem;
-    width: 150px;     /* ↔ 与上面 w=150 保持一致 */
-    height: 0;        /* 关键：不占据垂直空间 */
-    overflow: visible;
-    z-index: 5;
-  }
-
-  /* 覆盖小部件可能自带的居中样式 */
-  #mmv-footer-right *{
-    margin: 0 !important;
-  }
-
-  /* 移动端：不固定，避免遮挡 */
+  /* 移动端缩小并贴边 */
   @media (max-width: 768px){
-    #mmv-footer-right{
-      position: static;
-      width: 150px;
-      height: auto;
-      margin: .25rem 0 0 auto;
-    }
+    #mmv-float-bottom-right{ right: 8px; bottom: 8px; width: 120px; }
   }
 </style>
 
