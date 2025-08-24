@@ -18,11 +18,23 @@
 </script>
 
 <!-- MapMyVisitors -->
-<div style="display:flex;justify-content:center;margin:1rem 0">
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=a"></script>
+<div class="mmv-footer-left">
+  <script id="mapmyvisitors" defer
+          src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=360"></script>
   <noscript>
-    <a href="https://mapmyvisitors.com/web/1byxf"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff" /></a>
+    <a href="https://mapmyvisitors.com/web/1byxf" title="Visit tracker">
+      <img src="https://mapmyvisitors.com/map.png?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=360" alt="MapMyVisitors">
+    </a>
   </noscript>
 </div>
+
+<style>
+  .mmv-footer-left{
+    display:flex;
+    justify-content:flex-start; 
+    margin: .75rem 0 1.25rem 0;   
+  }
+</style>
+
 
 <!-- end custom footer snippets -->
