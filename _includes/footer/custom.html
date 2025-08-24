@@ -16,49 +16,6 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
-<!-- MapMyVisitors -->
-<div id="mmv-left">
-  <script id="mapmyvisitors" defer
-          src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=60"></script>
-  <noscript>
-    <a href="https://mapmyvisitors.com/web/1byxf" title="Visit tracker">
-      <img src="https://mapmyvisitors.com/map.png?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=60" alt="MapMyVisitors">
-    </a>
-  </noscript>
-</div>
-
-<style>
-  /* 让页脚容器成为定位上下文，并缩小上下留白 */
-  .page__footer{
-    position: relative !important;
-    padding-top: .5rem !important;
-    padding-bottom: .75rem !important;
-  }
-
-  /* 左下角固定的小地图盒子 */
-  #mmv-left{
-    position: absolute;
-    left: 1rem;             /* ← 距离左边的间距，按需改 */
-    bottom: .75rem;         /* ← 距离底部的间距，按需改 */
-    width: 220px;           /* ↔ 与上面 w=220 保持一致 */
-    z-index: 5;
-  }
-
-  /* MapMyVisitors 内部常会加居中样式，直接压掉 */
-  #mmv-left *, #mmv-left div{
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  /* 移动端不遮挡内容：小屏改为普通流式靠左显示 */
-  @media (max-width: 768px){
-    #mmv-left{
-      position: static;
-      margin: .25rem 0 0 .75rem;
-      width: 60px;
-    }
-  }
-</style>
 
 
 <!-- end custom footer snippets -->
