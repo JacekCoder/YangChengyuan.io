@@ -20,21 +20,25 @@
 <!-- MapMyVisitors -->
 <div class="mmv-footer-left">
   <script id="mapmyvisitors" defer
-          src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=100"></script>
+          src="https://mapmyvisitors.com/map.js?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=240"></script>
   <noscript>
     <a href="https://mapmyvisitors.com/web/1byxf" title="Visit tracker">
-      <img src="https://mapmyvisitors.com/map.png?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=100" alt="MapMyVisitors">
+      <img src="https://mapmyvisitors.com/map.png?d=nQC_p7cc_y3p507qCrBdZRmSc7c7kJ0UrZm6GAtL0Dk&cl=ffffff&w=240" alt="MapMyVisitors">
     </a>
   </noscript>
 </div>
 
 <style>
   .mmv-footer-left{
-    display:flex;
-    justify-content:flex-start; 
-    margin: 1.75rem 0 2rem 1rem;   
+    text-align: left;              
+    padding-left: 0.75rem;        
+    margin: .5rem 0 .75rem 0;    
   }
-</style>
+  .mmv-footer-left > div{
+    display: inline-block;
+    margin: 0 !important;          /* 覆盖组件可能自带的居中 margin */
+  }
 
+</style>
 
 <!-- end custom footer snippets -->
