@@ -16,6 +16,6 @@ I'm currently based in **Singapore**.
 You can find my CV here: [**Chengyuan Yang — Curriculum Vitae**](../assets/Curriculum Vitae-YangChengyuan.pdf).
 
 **Contacts / Links:**  
-[Email](mailto:CYANG027@ntu.edu.sg) | [Email (alt)](mailto:jacekyoung2.0@gmail.com) | [GitHub](https://github.com/JacekCoder) | [Google&nbsp;Scholar](https://scholar.google.com/citations?user=qc6CJjYAAAAJ) | [WeChat (QR)](../images/wechat.png)
+[Email](mailto:CYANG027@ntu.edu.sg) | [Email (alt)](mailto:jacekyoung2.0@gmail.com) | [GitHub](https://github.com/JacekCoder) | [Google&nbsp;Scholar](https://scholar.google.com/citations?user=qc6CJjYAAAAJ) | [WeChat (QR)](../images/wechatQR.png)
 
 
