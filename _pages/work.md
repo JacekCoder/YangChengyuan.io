@@ -1,39 +1,46 @@
 ---
-permalink: /terms/
-title: "Terms and Privacy Policy"
-modified: 2016-06-06
+layout: archive
+title: "Work Experience"
+permalink: /work/
+author_profile: true
 ---
 
-{% include base_path %}
-{% include toc %}
+## Intern Experience
 
-## Privacy Policy
+### Intern, Manufacturing Department, Donggeng Loong-Gine Power Co., Ltd.  
+*2023.08 – 2023.09*  
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+- Learned manufacturing processes such as body workshop, mechanical workshop, and shaft workshop through hands-on training and study of real-world mechanical engineering problems.  
+- Assisted production engineers by reviewing process documentation, identifying and resolving issues, and writing production reports to understand production standards and principles of mechanical engineering management.  
+- Recorded production data and quality metrics, conducted data analysis to support production process analysis and evaluation of production efficiency and quality.  
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+---
 
-### Log Files
+### Assistant Researcher, Research Department, Guangdong Changngda Technology Development Co., Ltd.  
+*2022.06 – 2022.12*  
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+- Involved in creating ultra-thin phase change devices and dismantling/reassembling motors.  
+- Modified and simplified models with SolidWorks based on simulation requirements.  
+- Applied ANSYS to implement structural analysis of the inner components of phase change devices to assess the stress distribution and completed basic parameter optimization for geometric measurements.  
+- Focused on creating and building the racing chassis, synergizing the structural design and thermal simulation with the transmission and power systems.  
+- Performed thermal simulations of the circuit board and battery pack with Icepak.  
+- Supported graduate students in completing the company’s horizontal business research.  
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+---
 
-All of this information is not linked to anything that is personally identifiable.
+## Student Work
 
-### Cookies and Web Beacons
+### Assistant, Innovation and Entrepreneurship Office, SCUT  
+*2022.03 – 2022.09*  
 
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
+- Assisted teachers in organizing various competitions and activities.  
+- Aided in the 2022 Special Creative Integration Teacher Training Camp at SCUT.  
 
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
+---
 
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
+### Member, Contact and Development Department, Student Union, School of Mechanical & Automotive Engineering  
+*2020.10 – 2021.11*  
 
-#### Google Analytics
-
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+- Managed the student organization team, including selecting and appointing members and officials, allocating duties, assessing performance, and instituting an exit system.  
+- Executed data analysis and growth needs surveys to supply reference data for skill advancement plans.  
+- Formulated growth plans and training programs for student leaders and instituted internal work systems within various departments.  
