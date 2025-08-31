@@ -7,7 +7,7 @@ author_profile: true
 
 ## Intern Experience
 
-### Intern, Manufacturing Department, Donggeng Loong-Gine Power Co., Ltd.  
+### Intern, Manufacturing Department, Dongfeng Loong-Gine Power Co., Ltd.  
 *2023.08 – 2023.09*  
 
 - Learned manufacturing processes such as body workshop, mechanical workshop, and shaft workshop through hands-on training and study of real-world mechanical engineering problems.  
