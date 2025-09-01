@@ -38,23 +38,22 @@ author_profile: true
 - Independently modeled and designed the experimental platform, including fixtures and an adjustment platform.  
 
 
-<div style="clear:both;"></div>
-
-<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px; align-items:start; margin:8px 0 16px;">
-  <figure style="margin:0; text-align:center;">
+<div style="margin:8px 0 16px;">
+  <figure style="margin:0 0 20px; text-align:center;">
     <img src="/images/car.png"
          alt="Race Car"
-         style="width:100%; height:260px; object-fit:cover; display:block; border-radius:6px;">
+         style="max-width:80%; height:auto; display:block; margin:0 auto; border-radius:6px;">
     <figcaption style="margin-top:6px; color:#666;">Race Car</figcaption>
   </figure>
 
-  <figure style="margin:0; text-align:center;">
+  <figure style="margin:0 0 20px; text-align:center;">
     <img src="/images/steering1.png"
          alt="Steering System"
-         style="width:100%; height:260px; object-fit:cover; display:block; border-radius:6px;">
+         style="max-width:80%; height:auto; display:block; margin:0 auto; border-radius:6px;">
     <figcaption style="margin-top:6px; color:#666;">Steering System</figcaption>
   </figure>
 </div>
+
 
 ---
 
