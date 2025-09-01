@@ -37,10 +37,16 @@ author_profile: true
 - Established a reinforcement learning model using MATLAB (Q-learning, DQN, SoftMax, Thompson Sampling) for optimization.  
 - Independently modeled and designed the experimental platform, including fixtures and an adjustment platform.  
 
-<img src="/YangChengyuan.io/images/car.png" alt="Race Car" width="320">
-<img src="/YangChengyuan.io/images/steering1.png" alt="Steering System" width="320">
-
-
+<div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
+  <figure style="margin:0; text-align:center;">
+    <img src="/images/car.jpg" alt="Race Car" width="320">
+    <figcaption>Race Car</figcaption>
+  </figure>
+  <figure style="margin:0; text-align:center;">
+    <img src="/images/steering1.jpg" alt="Steering System" width="320">
+    <figcaption>Steering System</figcaption>
+  </figure>
+</div>
 
 ---
 
