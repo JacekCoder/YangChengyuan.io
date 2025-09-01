@@ -37,7 +37,18 @@ author_profile: true
 - Established a reinforcement learning model using MATLAB (Q-learning, DQN, SoftMax, Thompson Sampling) for optimization.  
 - Independently modeled and designed the experimental platform, including fixtures and an adjustment platform.  
 
-![PCB Board](/images/pcb1.jpg)
+<table>
+  <tr>
+    <td>
+      <img src="{{ site.baseurl }}/images/pcb1.jpg" width="300"><br>
+      <p style="text-align:center;">PCB Board 1</p>
+    </td>
+    <td>
+      <img src="{{ site.baseurl }}/images/pcb2.jpg" width="300"><br>
+      <p style="text-align:center;">PCB Board 2</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
