@@ -37,15 +37,14 @@ author_profile: true
 - Established a reinforcement learning model using MATLAB (Q-learning, DQN, SoftMax, Thompson Sampling) for optimization.  
 - Independently modeled and designed the experimental platform, including fixtures and an adjustment platform.  
 
-
 <table style="width:100%; border-collapse:collapse; margin:8px 0 16px;">
   <tr>
     <td style="width:50%; vertical-align:top; text-align:center; padding:0 10px;">
-      <img src="/images/bs1.png" alt="Race Car" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/bs1.png' | relative_url }}" alt="Race Car" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; text-align:center;">Race Car</div>
     </td>
     <td style="width:50%; vertical-align:top; text-align:center; padding:0 10px;">
-      <img src="/images/bs2.png" alt="Steering System" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/bs2.png' | relative_url }}" alt="Steering System" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; text-align:center;">Steering System</div>
     </td>
   </tr>
@@ -64,16 +63,15 @@ author_profile: true
 <table style="width:100%; border-collapse:collapse; margin:8px 0 16px;">
   <tr>
     <td style="width:50%; vertical-align:top; text-align:center; padding:0 10px;">
-      <img src="/images/pcb1.png" alt="Race Car" style="width:100%; height:auto; border-radius:6px;">
-      <div style="margin-top:6px; color:#666; text-align:center;">Race Car</div>
+      <img src="{{ '/images/pcb1.png' | relative_url }}" alt="PCB Board 1" style="width:100%; height:auto; border-radius:6px;">
+      <div style="margin-top:6px; color:#666; text-align:center;">PCB Board 1</div>
     </td>
     <td style="width:50%; vertical-align:top; text-align:center; padding:0 10px;">
-      <img src="/images/pcb2.png" alt="Steering System" style="width:100%; height:auto; border-radius:6px;">
-      <div style="margin-top:6px; color:#666; text-align:center;">Steering System</div>
+      <img src="{{ '/images/pcb2.png' | relative_url }}" alt="PCB Board 2" style="width:100%; height:auto; border-radius:6px;">
+      <div style="margin-top:6px; color:#666; text-align:center;">PCB Board 2</div>
     </td>
   </tr>
 </table>
-
 
 ---
 
@@ -89,26 +87,25 @@ author_profile: true
 <table style="width:100%; border-collapse:collapse; margin:8px 0 16px;">
   <tr>
     <td style="width:50%; vertical-align:top; text-align:center; padding:10px;">
-      <img src="/images/steering3.png" alt="Race Car" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/steering3.png' | relative_url }}" alt="Race Car" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; font-size:90%; font-style:italic;">Race Car</div>
     </td>
     <td style="width:50%; vertical-align:top; text-align:center; padding:10px;">
-      <img src="/images/steering4.png" alt="Steering System" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/steering4.png' | relative_url }}" alt="Steering System" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; font-size:90%; font-style:italic;">Steering System</div>
     </td>
   </tr>
   <tr>
     <td style="width:50%; vertical-align:top; text-align:center; padding:10px;">
-      <img src="/images/vi1.png" alt="PCB Board 1" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/vi1.png' | relative_url }}" alt="PCB Board 1" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; font-size:90%; font-style:italic;">PCB Board 1</div>
     </td>
     <td style="width:50%; vertical-align:top; text-align:center; padding:10px;">
-      <img src="/images/vi2.png" alt="PCB Board 2" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/vi2.png' | relative_url }}" alt="PCB Board 2" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; font-size:90%; font-style:italic;">PCB Board 2</div>
     </td>
   </tr>
 </table>
-
 
 ---
 
@@ -124,23 +121,22 @@ author_profile: true
 <table style="width:100%; border-collapse:collapse; margin:8px 0 16px;">
   <tr>
     <td style="width:50%; vertical-align:top; text-align:center; padding:10px;">
-      <img src="/images/car.png" alt="Race Car" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/car.png' | relative_url }}" alt="Race Car" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; font-size:90%; font-style:italic;">Race Car</div>
     </td>
     <td style="width:50%; vertical-align:top; text-align:center; padding:10px;">
-      <img src="/images/chasis1.png" alt="Steering System" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/chasis1.png' | relative_url }}" alt="Steering System" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; font-size:90%; font-style:italic;">Steering System</div>
     </td>
   </tr>
   <tr>
     <td style="width:50%; vertical-align:top; text-align:center; padding:10px;">
-      <img src="/images/steering1.png" alt="PCB Board 1" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/steering1.png' | relative_url }}" alt="PCB Board 1" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; font-size:90%; font-style:italic;">PCB Board 1</div>
     </td>
     <td style="width:50%; vertical-align:top; text-align:center; padding:10px;">
-      <img src="/images/steering2.png" alt="PCB Board 2" style="width:100%; height:auto; border-radius:6px;">
+      <img src="{{ '/images/steering2.png' | relative_url }}" alt="PCB Board 2" style="width:100%; height:auto; border-radius:6px;">
       <div style="margin-top:6px; color:#666; font-size:90%; font-style:italic;">PCB Board 2</div>
     </td>
   </tr>
 </table>
-
