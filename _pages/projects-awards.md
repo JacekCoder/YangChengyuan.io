@@ -40,11 +40,11 @@ author_profile: true
 <table>
   <tr>
     <td>
-      <img src="{{ site.baseurl }}/images/pcb1.jpg" width="300"><br>
+      <img src="{{ site.baseurl }}/images/pcb1.png" width="300"><br>
       <p style="text-align:center;">PCB Board 1</p>
     </td>
     <td>
-      <img src="{{ site.baseurl }}/images/pcb2.jpg" width="300"><br>
+      <img src="{{ site.baseurl }}/images/pcb2.png" width="300"><br>
       <p style="text-align:center;">PCB Board 2</p>
     </td>
   </tr>
