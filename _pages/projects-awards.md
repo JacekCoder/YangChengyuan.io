@@ -38,24 +38,19 @@ author_profile: true
 - Independently modeled and designed the experimental platform, including fixtures and an adjustment platform.  
 
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; margin:16px 0; flex-wrap:wrap;">
-
-  <figure style="flex:1; min-width:280px; text-align:center; margin:0;">
-    <img src="/images/car.png"
-         alt="Race Car"
-         style="max-width:100%; height:auto; border-radius:6px;">
-    <figcaption style="margin-top:6px; color:#666;">Race Car</figcaption>
-  </figure>
-
-  <figure style="flex:1; min-width:280px; text-align:center; margin:0;">
-    <img src="/images/steering1.png"
-         alt="Steering System"
-         style="max-width:100%; height:auto; border-radius:6px;">
-    <figcaption style="margin-top:6px; color:#666;">Steering System</figcaption>
-  </figure>
-
-</div>
-
+<!-- 两栏图片 + 文字说明（最稳妥写法） -->
+<table style="width:100%; border-collapse:collapse; margin:8px 0 16px;">
+  <tr>
+    <td style="width:50%; vertical-align:top; text-align:center; padding:0 10px;">
+      <img src="/images/car.png" alt="Race Car" style="width:100%; height:auto; border-radius:6px;">
+      <div style="margin-top:6px; color:#666;">Race Car</div>
+    </td>
+    <td style="width:50%; vertical-align:top; text-align:center; padding:0 10px;">
+      <img src="/images/steering1.png" alt="Steering System" style="width:100%; height:auto; border-radius:6px;">
+      <div style="margin-top:6px; color:#666;">Steering System</div>
+    </td>
+  </tr>
+</table>
 
 ---
 
